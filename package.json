@@ -11,10 +11,19 @@
   "dependencies": {
     "next": "12.1.0",
     "react": "17.0.2",
-    "react-dom": "17.0.2"
+    "react-dom": "17.0.2",
+    "sass": "^1.38.1",
+    "tailwind-hamburgers": "^1.1.1"
   },
   "devDependencies": {
     "eslint": "8.10.0",
-    "eslint-config-next": "12.1.0"
+    "eslint-config-next": "12.1.0",
+    "autoprefixer": "^10.3.4",
+    "postcss": "^8.3.6",
+    "postcss-flexbugs-fixes": "^4",
+    "postcss-import": "^14.0.2",
+    "postcss-preset-env": "^6.7.0",
+    "precss": "^4.0.0",
+    "tailwindcss": "^2.2.15"
   }
 }
