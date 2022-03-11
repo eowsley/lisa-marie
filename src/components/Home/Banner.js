@@ -1,11 +1,9 @@
-export const Banner = () => {
-    return (
-        <div className="w-full  bg-red-400 h-72 flex items-center justify-center">
-                
-                    <strong>
-                    This is a content of the banner 
-                    </strong>
-            
-        </div>
-    )
-}
+import {Button} from '../Shared'
+
+export const Banner = (props) => {
+  return (
+    <div id="banner" className={"w-full py-6 " + props.extraClasses}>
+      {props.children}
+    </div>
+  );
+};

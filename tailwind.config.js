@@ -7,7 +7,7 @@ module.exports = {
         75: '75vw',
         50: '50vw',
         90: '90vw',
-        100: '100vw'
+        100: '100vw',
       },
       maxWidth: {
         75: '75vw',
