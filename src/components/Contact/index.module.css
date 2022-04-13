@@ -1,0 +1,50 @@
+.title {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  font-family: Playfair Display;
+}
+
+.title em {
+  font-size: 1.5rem;
+}
+
+.firstRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.firstRow .input {
+  width: 48%;
+  margin-bottom: 0;
+}
+
+.input {
+  width: 100%;
+  padding: 16px;
+  border: none;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+  color: #999;
+  background-color: #fff;
+  font-size: 14px;
+  margin-bottom: 1rem;
+}
+
+.textArea {
+  width: 100%;
+  padding: 16px;
+  border: none;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+  color: #999;
+  background-color: #fff;
+  font-size: 14px;
+  height: 150px;
+}
+
+
+

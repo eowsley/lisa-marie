@@ -1,8 +1,13 @@
-export const Button = ({ text, extraClasses }) => {
+export const Button = ({ text, extraClasses,  extraArrowClasses }) => {
   return (
-    <button className={"group transform rounded px-1 sm:px-4 font-playfair w-fit bg-transparent border "+ extraClasses}>
+    <button
+      className={
+        "group transform rounded px-1 sm:px-4 font-playfair w-fit bg-transparent border-2 " +
+        extraClasses
+      }
+    >
       {text}{" "}
-      <span className="hidden group-hover:inline-block"> {">"} </span>
+      <div className={"right-arrow hidden group-hover:inline-block " + extraArrowClasses}></div>
     </button>
   );
 };

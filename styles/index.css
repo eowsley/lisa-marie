@@ -2,3 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
+
+.right-arrow {
+    border-right-style: solid;
+    border-top-style: solid;
+    width: 10px;
+    height: 10px;
+    transform: rotate(45deg);
+    transition: 700ms all;
+    margin-left: 6px;
+}

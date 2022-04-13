@@ -20,7 +20,7 @@ function Header() {
                   <Link
                     activeClass="Home"
                     to="home"
-                    href="/Home"
+                    href="/"
                     smooth={true}
                     offset={50}
                     duration={500}
@@ -33,7 +33,7 @@ function Header() {
                   <Link
                     activeClass="about"
                     to="about"
-                    href="/About"
+                    href="/about"
                     smooth={true}
                     offset={50}
                     duration={500}
@@ -46,7 +46,7 @@ function Header() {
                   <Link
                     activeClass="work"
                     to="work"
-                    href="/Work"
+                    href="/work"
                     smooth={true}
                     offset={50}
                     duration={500}
@@ -60,7 +60,7 @@ function Header() {
                   <Link
                     activeClass="Services"
                     to="services"
-                    href="/Services"
+                    href="/services"
                     smooth={true}
                     offset={50}
                     duration={500}
@@ -74,7 +74,7 @@ function Header() {
                   <Link
                     activeClass="contact"
                     to="contact"
-                    href="/Contact"
+                    href="/contact"
                     smooth={true}
                     offset={50}
                     duration={500}
@@ -103,29 +103,29 @@ function Header() {
               {
                 isOpen &&         <div className="sm:hidden" id="mobile-menu">
                 <div className="bg-white px-2 pt-2 pb-3 space-y-1 sm:px-3 text-right">
-                  <Link href="/Home">
+                  <Link href="/">
                     <a className="playfair font-playfair hover:bg-medium-turquoise text-black hover:text-white block px-8 py-2 rounded-md text-base font-medium ">
                       Home
                     </a>
                   </Link>
-                  <Link href="/About">
+                  <Link href="/about">
                     <a className="playfair font-playfair hover:bg-melon text-black hover:text-white block px-8 py-2 rounded-md text-base font-medium">
                       About
                     </a>
                   </Link>
       
-                  <Link href="/Work">
+                  <Link href="/work">
                     <a className="playfair font-playfair hover:bg-medium-turquoise text-black hover:text-white block px-8 py-2 rounded-md text-base font-medium">
                       Work
                     </a>
                   </Link>
-                  <Link href="/Services">
+                  <Link href="/services">
                     <a className="playfair font-playfair hover:bg-melon text-black hover:text-white block px-8 py-2 rounded-md text-base font-medium">
                       Services
                     </a>
                   </Link>
       
-                  <Link href="/Contact">
+                  <Link href="/contact">
                     <a className="playfair font-playfair hover:bg-opera-mauve text-black hover:text-white block px-8 py-2 rounded-md text-base font-medium">
                       Contact
                     </a>

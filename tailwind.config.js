@@ -30,6 +30,8 @@ module.exports = {
     colors: {
       transparent: "transparent",
       current: "currentColor",
+      contact: "#d4aa6d",
+      lightGray: '#c6c6c666',
       blue: colors.blue,
       black: colors.black,
       white: colors.white,
