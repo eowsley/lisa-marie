@@ -27,7 +27,7 @@ export const Contact = () => {
             <div className="w-full flex justify-between pt-6">
               <p className="text-contact">
                 Email: <br />
-                <a href="mailto: email@here.com">Her email should be here </a>
+                <a href="mailto: email@here.com">lisamariewhitney@yahoo.com</a>
               </p>
               <Button
                 text="Submit"

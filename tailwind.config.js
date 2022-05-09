@@ -1,3 +1,4 @@
+const { urlObjectKeys } = require("next/dist/shared/lib/utils");
 const colors = require("tailwindcss/colors");
 
 module.exports = {
@@ -82,9 +83,7 @@ module.exports = {
         fadeinNoDelay: "500ms  ease 0s normal forwards  1 fadeinDelay",
         slideUp: "slideUp .3s ease-out",
       },
-      backgroundImage: (theme) => ({
 
-      }),
     },
   },
   variants: {

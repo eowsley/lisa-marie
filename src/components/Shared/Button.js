@@ -1,6 +1,7 @@
-export const Button = ({ text, extraClasses,  extraArrowClasses }) => {
+export const Button = ({ text, extraClasses, onClick,  extraArrowClasses }) => {
   return (
     <button
+    onClick={onClick}
       className={
         "group transform rounded px-1 sm:px-4 font-playfair w-fit bg-transparent border-2 " +
         extraClasses

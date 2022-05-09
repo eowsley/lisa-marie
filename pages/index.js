@@ -14,9 +14,9 @@ export default function Home() {
       <Banner extraClasses="flex items-center justify-center bg-red-400 h-52">
         <div className="sm:w-4/12 w-8/12 h-full flex flex-col justify-evenly items-center">
           <strong className="text-center font-playfair">
-            This is a content of the banner
+          Believe that YOU will do the impossible in your life. -Lisa
           </strong>
-          <Button text="Go to xyz now" extraClasses="h-10" />
+          <Button text="Go to Work" extraClasses="h-10" />
         </div>
       </Banner>
       <SecondSection />
