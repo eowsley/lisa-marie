@@ -1,13 +1,10 @@
 import Head from "next/head";
 import {
-  Biography,
-  Hero,
   Banner,
-  SecondSection,
-  Testimonial,
 } from "../src/components/Home";
-import { Button, Footer } from "../src/components/Shared";
+import { Footer } from "../src/components/Shared";
 import Header from "../src/components/Shared/Header";
+import {SecondSectionAbout} from '../src/components/About'
 
 export default function Home() {
   return (
@@ -26,11 +23,9 @@ export default function Home() {
             many, my mission in life is to use every one of my God-given gifts
             to bring you back to a place of faith, hope, and love.
           </strong>
-          
         </div>
       </Banner>
-      <SecondSection />
-
+      <SecondSectionAbout />
       <Footer />
     </div>
   );

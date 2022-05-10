@@ -129,9 +129,9 @@ export function Testimonial() {
       <h2 style={{fontSize: "2.2rem", textAlign: "center", color: '#FFC1B8', fontWeight: "700", marginBottom: "1.5rem", marginTop: "1.5rem"}}>Testimonials</h2>
       <div>
         <Carousel {...carouselParams}>
-          {data.map((item) => (
+          {data.map((item, index) => (
             <div 
-            key={item.sliderClass}  
+            key={index}  
             style={{width:"90%", padding: "20px", backgroundColor: "white", borderRadius: "30px", marginLeft: "30px", marginBottom: "20px"}}
             >
               <h2 style={{fontSize: "1.2rem", fontWeight: "700", margin: "0.6rem", marginLeft: 0}}>{item.title}</h2>

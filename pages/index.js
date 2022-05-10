@@ -20,12 +20,17 @@ export default function Home() {
         </div>
       </Banner>
       <SecondSection />
-      <Banner extraClasses="bg-red-500 h-72 flex  justify-center">
+      <Banner extraClasses="bg-red-400 h-44  flex  justify-center">
         <div className="sm:w-4/12 w-8/12 h-full flex flex-col justify-between items-center">
           <strong className="text-center font-playfair">
-            This is a content of the banner
+            Listen to I AM a Warrior - Episode 23
           </strong>
-          <Button text="Go to xyz now" extraClasses="h-10" />
+
+          <p className="py-4">
+            This is a details about poadcast
+          </p>
+          <Button text="Go to Podcast: Unabashed You" onClick={()=> window.open("https://unabashedyou.com/episodes/i-am-a-warrior-episode-23", '_blank')} extraClasses="h-10" />
+
         </div>
       </Banner>
       {/* <Biography></Biography> */}

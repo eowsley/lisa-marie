@@ -27,7 +27,7 @@ export default function Home() {
           <Button text="Go to xyz now" extraClasses="h-10" />
         </div>
       </Banner>
-      <SecondSection />
+
 
       <Footer />
     </div>

@@ -1,6 +1,9 @@
 import { Button } from "../Shared";
+import { useRouter } from 'next/router'
+ 
 
 export const Hero = () => {
+  const history = useRouter()
   return (
     <div className="min-h-fit  bg-gray-200 pt-20 flex flex-col sm:flex-row items-center justify-end">
       <div className="sm:w-5/12 w-full ">
@@ -39,6 +42,7 @@ export const Hero = () => {
           true self.
         </p>
         <Button
+        onClick={()=>history.push('/work')}
           text="HOW I CAN HELP YOU"
           extraClasses="border-blue-400 text-blue-400 h-10"
         />
