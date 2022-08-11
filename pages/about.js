@@ -14,7 +14,7 @@ export default function Home() {
       </Head>
       <Header />
       <div className="h-screen relative ">
-        <img src="/images/v-image.JPG" className="w-full h-full" />
+        <img src="/images/v-image.JPG" className="mx-auto h-full object-content" />
       </div>
       <Banner extraClasses="flex items-center justify-center bg-red-400 h-52">
         <div className="sm:w-4/12 w-8/12 h-full flex flex-col justify-evenly items-center">
