@@ -1,8 +1,8 @@
 import { Button } from "../Shared";
-import { useRouter } from 'next/router'
+import { useRouter } from "next/router";
 
 export const SecondSectionAbout = () => {
-  const history  = useRouter()
+  const history = useRouter();
   return (
     <div className="h-auto bg-blue-200 py-8 flex flex-col sm:flex-row justify-end">
       <div className="sm:w-6/12 w-full flex justify-center  items-start">
@@ -10,17 +10,23 @@ export const SecondSectionAbout = () => {
       </div>
       <div className="w-full sm:w-6/12 w-10/12 flex flex-col items-center mx-auto px-10">
         <h1 className="self-start font-playfair mb-4 ">
-          I’m Lisa-Marie Whitney, <br />{" "} The Empowerment Coach. <br />{" "}
+          I’m Lisa-Marie Whitney, <br /> The Empowerment Coach. <br />{" "}
           <span className="italic text-xl">I am a self-love warrior.</span>{" "}
         </h1>
 
         <p className="self-start mb-4 font-playfair w-10/12 text-center sm:text-left">
           When you feel like you are struggling to hold it all together… when
           there is complete chaos going on inside… I’ll reconnect you to your
-          true self.
+          true self. <br /> My name “Lisa” means, “to be consecrated to God” and that
+          is the path I am on as I help others. My journey began as a child when
+          I discovered I could pick up on energy in others and understand where
+          they were broken or hurting. This gift further developed as I grew up,
+          eventually landing myself in New York working in the fashion industry.
+          My career in fashion then led to modeling and ultimately acting. READ
+          MORE (link SecondSection.js)
         </p>
         <Button
-          onClick={()=>history.push('/contact')}
+          onClick={() => history.push("/contact")}
           text="Contact Me Now"
           extraClasses="self-start border-blue-400 text-blue-400 h-10"
         />

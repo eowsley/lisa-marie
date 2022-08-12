@@ -28,21 +28,33 @@ export default function Home() {
         </div>
       </Banner>
       <SecondSectionWork
-        title="I’m Lisa-Marie Whitney"
-        subTitle="online program"
-        content="Every woman who struggles with food, their body and their own self-care deserves to have an ‘out’.  You just need an opportunity to explore a different way of living without years of therapy or misery.  Love the Skin You’re In is my online programme where I have poured all my years of study, personal experience and expertise into one place.  Join us and learn my step by step system to free you from your demons and teach you how to love your body, just as it is.  Come join us."
+        title="Regain your Joy!"
+        subTitle="Free Offer"
+        content="Video pep talk to offer momentary relief and a desire to explore freedom!  Come join us."
       />
       <SecondSectionWork
         url="/images/v-image.JPG"
-        title="I’m Lisa-Marie Whitney"
-        subTitle="online program"
-        content="Every woman who struggles with food, their body and their own self-care deserves to have an ‘out’.  You just need an opportunity to explore a different way of living without years of therapy or misery.  Love the Skin You’re In is my online programme where I have poured all my years of study, personal experience and expertise into one place.  Join us and learn my step by step system to free you from your demons and teach you how to love your body, just as it is.  Come join us."
+        title="Quit Saying Sorry… Take up Space… Shine Bright…How to stop apologizing for yourself!"
+        subTitle="Low Price"
+        content="20-30 minute video workshops for under $50...The Perfectionism Trap
+        Hiding From God?
+        Forgiveness 101
+        Living w/ Intention
+        Fear vs. Love
+        Quit Saying Sorry… Take up Space… Shine Bright…How to stop apologizing for yourself
+        Miracles… Affirming Life
+        Forgiveness: to clear your own heart, for you not for others
+        "
       />
       <SecondSectionWork
         url="/images/v-image.JPG"
-        title="I’m Lisa-Marie Whitney"
-        subTitle="online program"
-        content="Every woman who struggles with food, their body and their own self-care deserves to have an ‘out’.  You just need an opportunity to explore a different way of living without years of therapy or misery.  Love the Skin You’re In is my online programme where I have poured all my years of study, personal experience and expertise into one place.  Join us and learn my step by step system to free you from your demons and teach you how to love your body, just as it is.  Come join us."
+        title="Book With Lisa"
+        subTitle="One on One Sessions"
+        content="One on one
+        3 Sessions
+        6 Sessions
+        9 Sessions
+        "
       />
 
       <Footer />
