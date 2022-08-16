@@ -31,7 +31,7 @@ function Header() {
                     duration={500}
                     className="mr-5 "
                   >
-                    <a className={`${itemStyle} ${pathname === '/'?'text-contact':''}`}>Home</a>
+                    <a className={`${itemStyle} ${pathname === '/'?'text-contact':''}`}>Impact</a>
                   </Link>
                   <Link
                     activeClass="about"
@@ -53,7 +53,7 @@ function Header() {
                     duration={500}
                     className="playfair font-playfair text-black-600 hover:text-gray-600 px-3 py-2 rounded-md text-sm font-medium m-0"
                   >
-                    <a className={`${itemStyle} ${pathname === '/work'?'text-contact':''}`}>Work</a>
+                    <a className={`${itemStyle} ${pathname === '/work'?'text-contact':''}`}>Regain Your Joy</a>
                   </Link>
 
                   <Link
@@ -65,7 +65,7 @@ function Header() {
                     duration={500}
                     className="playfair font-playfair text-black-600 hover:text-gray-600 px-3 py-2 rounded-md text-sm font-medium m-0"
                   >
-                    <a className={`${itemStyle} ${pathname === '/services'?'text-contact':''}`}>Services</a>
+                    <a className={`${itemStyle} ${pathname === '/services'?'text-contact':''}`}>What They're Saying</a>
                   </Link>
 
                   <Link
@@ -77,7 +77,7 @@ function Header() {
                     duration={500}
                     className="playfair font-playfair text-black-600 hover:text-gray-600 px-3 py-2 rounded-md text-sm font-medium m-0"
                   >
-                    <a className={`${itemStyle} ${pathname === '/contact'?'text-contact':''}`}>Contact</a>
+                    <a className={`${itemStyle} ${pathname === '/contact'?'text-contact':''}`}>Say Hello!</a>
                   </Link>
                 </div>
               </div>

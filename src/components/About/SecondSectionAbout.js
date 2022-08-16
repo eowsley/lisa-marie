@@ -15,15 +15,10 @@ export const SecondSectionAbout = () => {
         </h1>
 
         <p className="self-start mb-4 font-playfair w-10/12 text-center sm:text-left">
-          When you feel like you are struggling to hold it all together… when
-          there is complete chaos going on inside… I’ll reconnect you to your
-          true self. <br /> My name “Lisa” means, “to be consecrated to God” and that
-          is the path I am on as I help others. My journey began as a child when
-          I discovered I could pick up on energy in others and understand where
-          they were broken or hurting. This gift further developed as I grew up,
-          eventually landing myself in New York working in the fashion industry.
-          My career in fashion then led to modeling and ultimately acting. READ
-          MORE (link SecondSection.js)
+          I’m using every moment of my life and every bit of my abilities to
+          empower transformation and healing. That’s why I do what I do and will
+          continue to do so in service to others. READ MORE
+          {/* (link SecondSection.js)*/}
         </p>
         <Button
           onClick={() => history.push("/contact")}

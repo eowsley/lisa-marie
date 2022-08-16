@@ -11,8 +11,8 @@ export const Contact = () => {
         <div className="w-full">
           {" "}
           <p className={`${styles.title} px-10 text-contact font-playfair`}>
-            Questions or comments? <br />
-            <em className="text-contact">Send me a message…</em>
+            Say Hello. <br />
+            <em className="text-contact">Ready to move your life forward? Contact me here…</em>
           </p>
           <form className="w-full px-10">
             <div className={styles.firstRow}>
