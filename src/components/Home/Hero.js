@@ -37,7 +37,7 @@ export const Hero = () => {
 
         </p>
         <p className="self-start text-blue-400 mb-4 font-playfair w-10/12 text-center sm:text-left">
-          When you feel like you`&apos;`'re struggling to hold it all together, when
+          When you feel like you&apos;re struggling to hold it all together, when
           there is complete chaos going on inside… I&apos;ll reconnect you to your
           true self.
         </p>
