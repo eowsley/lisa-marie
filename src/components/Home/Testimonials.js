@@ -143,7 +143,7 @@ export function Testimonial() {
           marginTop: "1.5rem",
         }}
       >
-        What They`&apos;`'re Saying...
+        What They&apos;re Saying...
       </h2>
       <div>
         <Carousel {...carouselParams}>
