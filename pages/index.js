@@ -6,9 +6,11 @@ import {
   SecondSection,
   Testimonial,
 } from "../src/components/Home";
+import { useRouter } from "next/router";
 import { Button, Footer } from "../src/components/Shared";
 import Header from "../src/components/Shared/Header";
 export default function Home() {
+  const history=useRouter()
   return (
     <div>
       <Head>
@@ -16,7 +18,7 @@ export default function Home() {
       </Head>
       <Header />
       <Hero />
-      <Banner extraClasses="flex items-center justify-center bg-red-400 h-52">
+      <Banner extraClasses="flex items-center justify-center bg-red-400 h-72">
         <div className="sm:w-4/12 w-8/12 h-full flex flex-col justify-evenly items-center">
           <strong className="text-center font-playfair">
             Believe that YOU will do the impossible in your life. -Lisa <br />{" "}
@@ -27,6 +29,7 @@ export default function Home() {
           <Button
             text="Let's Do The Impossible IN YOUR LIFE!"
             extraClasses="h-10"
+            onClick={() => history.push('/work#regain')}
           />
         </div>
       </Banner>

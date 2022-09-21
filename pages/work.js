@@ -1,14 +1,12 @@
 import Head from "next/head";
-import {
-  Banner,
-} from "../src/components/Home";
+import { Banner } from "../src/components/Home";
 import { Button, Footer } from "../src/components/Shared";
 import Header from "../src/components/Shared/Header";
 import { SecondSectionWork } from "../src/components/Work";
-import {  useRouter } from 'next/router'
+import { useRouter } from "next/router";
 
 export default function Home() {
-  const history = useRouter()
+  const history = useRouter();
   return (
     <div>
       <Head>
@@ -16,7 +14,10 @@ export default function Home() {
       </Head>
       <Header />
       <div className="h-screen relative ">
-        <img src="/images/v-image.JPG" className="mx-auto h-full object-content" />
+        <img
+          src="/images/v-image.JPG"
+          className="mx-auto h-full object-content"
+        />
       </div>
       <Banner extraClasses="flex items-center justify-center bg-red-400 h-52">
         <div className="sm:w-4/12 w-8/12 h-full flex flex-col justify-evenly items-center">
@@ -24,15 +25,21 @@ export default function Home() {
             Investing in yourself, investing in your dreams… paramount to
             finding out what your purpose is! -Lisa
           </strong>
-          <Button text="Invest in yourself" extraClasses="h-10" onClick={() => history.push('/contact')} />
+          <Button
+            text="Invest in yourself"
+            extraClasses="h-10"
+            onClick={() => history.push("/contact")}
+          />
         </div>
       </Banner>
       <SecondSectionWork
+        id="regain"
         title="Regain your Joy!"
         subTitle="Free Offer"
         content="Video pep talk to offer momentary relief and a desire to explore freedom!  Come join us."
       />
       <SecondSectionWork
+        id="quit"
         url="/images/v-image.JPG"
         title="Quit Saying Sorry… Take up Space… Shine Bright…How to stop apologizing for yourself!"
         subTitle="Low Price"
@@ -47,6 +54,7 @@ export default function Home() {
         "
       />
       <SecondSectionWork
+        id="book"
         url="/images/v-image.JPG"
         title="Book With Lisa"
         subTitle="One on One Sessions"

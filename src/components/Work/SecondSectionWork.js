@@ -1,10 +1,10 @@
 import { Button } from "../Shared";
 import { useRouter } from "next/router";
 
-export const SecondSectionWork = ({ url, title, subTitle, content }) => {
+export const SecondSectionWork = ({ url, title, subTitle, content, id }) => {
   const history = useRouter();
   return (
-    <div className="h-auto bg-blue-200 py-8 flex flex-col sm:flex-row justify-end">
+    <div id={id} className="h-auto bg-blue-200 py-8 flex flex-col sm:flex-row justify-end">
       <div className="sm:w-6/12 w-full flex justify-center  items-start">
         <img className="w-10/12 h-72" src={url || "/images/the_valley.webp"} />
       </div>

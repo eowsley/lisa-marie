@@ -17,8 +17,7 @@ export const SecondSectionAbout = () => {
         <p className="self-start mb-4 font-playfair w-10/12 text-center sm:text-left">
           I’m using every moment of my life and every bit of my abilities to
           empower transformation and healing. That’s why I do what I do and will
-          continue to do so in service to others. READ MORE
-          {/* (link SecondSection.js)*/}
+          continue to do so in service to others.
         </p>
         <Button
           onClick={() => history.push("/contact")}
