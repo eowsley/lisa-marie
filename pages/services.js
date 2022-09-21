@@ -15,6 +15,7 @@ export default function Home() {
       <Header />
       <div className="h-screen relative ">
         <Image
+        width={40} height={40}
           src="/images/the_valley.webp"
           className="mx-auto h-full object-content"
         />

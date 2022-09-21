@@ -4,7 +4,7 @@ import { Button, Footer } from "../src/components/Shared";
 import Header from "../src/components/Shared/Header";
 import { SecondSectionWork } from "../src/components/Work";
 import { useRouter } from "next/router";
-import Image from 'next/image'
+import Image from "next/image";
 
 export default function Home() {
   const history = useRouter();
@@ -16,6 +16,7 @@ export default function Home() {
       <Header />
       <div className="h-screen relative ">
         <Image
+          layout="fill"
           src="/images/v-image.JPG"
           className="mx-auto h-full object-content"
         />
@@ -38,7 +39,13 @@ export default function Home() {
         title="Regain your Joy!"
         subTitle="Free Offer"
         content="Video pep talk to offer momentary relief and a desire to explore freedom!  Come join us."
-      />
+      >
+        <Image
+          layout="fill"
+          className="w-10/12 h-72"
+          src={"/images/v-image.JPG"}
+        />
+      </SecondSectionWork>
       <SecondSectionWork
         id="quit"
         url="/images/v-image.JPG"
@@ -54,6 +61,7 @@ export default function Home() {
         Forgiveness: to clear your own heart, for you not for others
         "
       />
+
       <SecondSectionWork
         id="book"
         url="/images/v-image.JPG"
