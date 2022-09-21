@@ -5,7 +5,7 @@ export const Contact = () => {
   return (
     <div className="min-h-fit  bg-lightGray pt-20 flex flex-col sm:flex-row items-center">
       <div className="sm:w-5/12 w-full ">
-        <img src="/images/lmw_contact_IMG_3791.jpeg" alt="lisa" />
+      <Image src="/images/lmw_contact_IMG_3791.jpeg" alt="lisa" />
       </div>
       <div className="w-full px-10 sm:w-7/12 flex flex-col sm:items-start sm:justify-evenly h-full">
         <div className="w-full">

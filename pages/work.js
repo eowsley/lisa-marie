@@ -4,6 +4,7 @@ import { Button, Footer } from "../src/components/Shared";
 import Header from "../src/components/Shared/Header";
 import { SecondSectionWork } from "../src/components/Work";
 import { useRouter } from "next/router";
+import Image from 'next/image'
 
 export default function Home() {
   const history = useRouter();
@@ -14,7 +15,7 @@ export default function Home() {
       </Head>
       <Header />
       <div className="h-screen relative ">
-        <img
+        <Image
           src="/images/v-image.JPG"
           className="mx-auto h-full object-content"
         />

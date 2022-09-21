@@ -1,13 +1,13 @@
 import { Button } from "../Shared";
 import { useRouter } from 'next/router'
- 
+import Image from 'next/image'
 
 export const Hero = () => {
   const history = useRouter()
   return (
     <div className="min-h-fit  bg-gray-200 pt-20 flex flex-col sm:flex-row items-center justify-end">
       <div className="sm:w-5/12 w-full ">
-        <img src="/images/lmw_hero_IMG_3523.jpeg" alt="lisa" />
+        <Image src="/images/lmw_hero_IMG_3523.jpeg" alt="lisa" />
       </div>
       <div className="w-full px-10 sm:w-7/12 h-96 flex flex-col justify-evenly items-center sm:items-start">
         <h1 className="font-playfair text-blue-400 text-3xl">

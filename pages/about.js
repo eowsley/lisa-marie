@@ -5,6 +5,7 @@ import {
 import { Footer } from "../src/components/Shared";
 import Header from "../src/components/Shared/Header";
 import {SecondSectionAbout} from '../src/components/About'
+import Image from 'next/image'
 
 export default function Home() {
   return (
@@ -14,7 +15,7 @@ export default function Home() {
       </Head>
       <Header />
       <div className="h-screen relative ">
-        <img src="/images/v-image.JPG" className="mx-auto h-full object-content" />
+        <Image src="/images/v-image.JPG" className="mx-auto h-full object-content" />
       </div>
       <Banner extraClasses="flex items-center justify-center bg-red-400 h-52">
         <div className="sm:w-4/12 w-8/12 h-full flex flex-col justify-evenly items-center">
