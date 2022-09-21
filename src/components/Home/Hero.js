@@ -11,7 +11,7 @@ export const Hero = () => {
       </div>
       <div className="w-full px-10 sm:w-7/12 h-96 flex flex-col justify-evenly items-center sm:items-start">
         <h1 className="font-playfair text-blue-400 text-3xl">
-          Is The Life You’ve Worked So Hard to Create Secretly
+          Is The Life You`&apos;`’ve Worked So Hard to Create Secretly
           Crumbling? <br />{" "}
           <span className="italic  text-xl                                                                                                           ">
             Your pain is an invitation to heal.
@@ -24,7 +24,7 @@ export const Hero = () => {
           <span>
             Nobody knows the pain and disappointment you carry, and you don’t
             want them to. The last thing you need is to be found out... to be
-            revealed as someone who’s hanging on by a thread... or so it seems.
+            revealed as someone who`&apos;`’s hanging on by a thread... or so it seems.
           </span>
         </p>
         <p className="font-playfair text-blue-400 sm:w-12/12 w-10/12 text-justify sm:text-left">
@@ -37,8 +37,8 @@ export const Hero = () => {
 
         </p>
         <p className="self-start text-blue-400 mb-4 font-playfair w-10/12 text-center sm:text-left">
-          When you feel like you're struggling to hold it all together, when
-          there is complete chaos going on inside… I’ll reconnect you to your
+          When you feel like you`&apos;`'re struggling to hold it all together, when
+          there is complete chaos going on inside… I`&apos;`’ll reconnect you to your
           true self.
         </p>
         <Button

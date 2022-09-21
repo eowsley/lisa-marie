@@ -65,7 +65,7 @@ function Header() {
                     duration={500}
                     className="playfair font-playfair text-black-600 hover:text-gray-600 px-3 py-2 rounded-md text-sm font-medium m-0"
                   >
-                    <a className={`${itemStyle} ${pathname === '/services'?'text-contact':''}`}>What They're Saying</a>
+                    <a className={`${itemStyle} ${pathname === '/services'?'text-contact':''}`}>What They`&apos;`'re Saying</a>
                   </Link>
 
                   <Link
