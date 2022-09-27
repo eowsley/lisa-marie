@@ -16,7 +16,7 @@ export function Header() {
           <div className="flex items-center h-20 w-full">
             <div className="flex items-center  mx-20  justify-between w-full">
               <div className="flex justify-center items-center flex-shrink-0 ">
-                <h1 className="font-playfair text-3xl text-opera-mauve playfair font-playfair text-contact ">
+                <h1 onClick={()=> router.push('/')} className="cursor-pointer font-playfair text-3xl text-opera-mauve playfair font-playfair text-contact ">
                   <em> Lisa Marie Whitney</em>
                 </h1>
               </div>

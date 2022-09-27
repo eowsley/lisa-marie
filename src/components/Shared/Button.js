@@ -1,4 +1,4 @@
-export const Button = ({ text, extraClasses, onClick,  extraArrowClasses }) => {
+export const Button = ({ text, extraClasses, onClick,  extraArrowClasses, children }) => {
   return (
     <button
     onClick={onClick}
@@ -7,7 +7,7 @@ export const Button = ({ text, extraClasses, onClick,  extraArrowClasses }) => {
         extraClasses
       }
     >
-      {text}{" "}
+      {text ? text : children}
       <div className={"right-arrow hidden group-hover:inline-block " + extraArrowClasses}></div>
     </button>
   );
