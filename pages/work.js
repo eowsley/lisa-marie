@@ -1,10 +1,13 @@
 import Head from "next/head";
 import { Banner } from "../src/components/Home";
-import { Button, Footer } from "../src/components/Shared";
-import Header from "../src/components/Shared/Header";
+import { Button } from "../src/components/Shared";
+
 import { SecondSectionWork } from "../src/components/Work";
 import { useRouter } from "next/router";
 import Image from "next/image";
+import { MainLayout } from "../src/layouts/MainLayout";
+
+
 
 export default function Home() {
   const history = useRouter();
@@ -13,7 +16,7 @@ export default function Home() {
       <Head>
         <title>Lisa Marie</title>
       </Head>
-      <Header />
+      <MainLayout>
       <div className="h-screen relative ">
         <Image
           layout="fill"
@@ -64,7 +67,7 @@ export default function Home() {
 
       <SecondSectionWork
         id="book"
-        url="/images/v-image.JPG"
+
         title="Book With Lisa"
         subTitle="One on One Sessions"
         content="One on one
@@ -73,8 +76,7 @@ export default function Home() {
         9 Sessions
         "
       />
-
-      <Footer />
+</MainLayout>
     </div>
   );
 }

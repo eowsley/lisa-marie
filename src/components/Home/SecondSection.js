@@ -40,7 +40,7 @@ export const SecondSection = () => {
           continue to do so in service to others.
         </p>
         <Button
-          onClick={() => history.push("/about")}
+          onClick={() => history.push("/contact")}
           text="EXPLORE"
           extraClasses="self-start border-blue-400 text-blue-400 h-10"
         />

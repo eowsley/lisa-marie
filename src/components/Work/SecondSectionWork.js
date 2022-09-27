@@ -1,13 +1,14 @@
 import { Button } from "../Shared";
 import { useRouter } from "next/router";
 import Image from 'next/image'
+import thirdImage from "../../../public/images/v-image.JPG";
 
 export const SecondSectionWork = ({ url, title, subTitle, content, id }) => {
   const history = useRouter();
   return (
     <div id={id} className="h-auto bg-blue-200 py-8 flex flex-col sm:flex-row justify-end">
       <div className="sm:w-6/12 w-full flex justify-center  items-start">
-        <Image layout='fill'  className="w-10/12 h-72" src={url || "/images/the_valley.webp"} />
+        <Image layout="responsive" width={100} height={50}  alt="d" src={thirdImage} />
       </div>
       <div className="w-full sm:w-6/12 w-10/12 flex flex-col items-center mx-auto px-10">
         <h1 className="self-start text-2xl font-playfair mb-4 ">{title}</h1>

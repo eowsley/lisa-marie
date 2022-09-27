@@ -4,9 +4,9 @@ import Image from 'next/image'
 
 export const Contact = () => {
   return (
-    <div className="min-h-fit  bg-lightGray pt-20 flex flex-col sm:flex-row items-center">
-      <div className="sm:w-5/12 w-full ">
-      <Image layout="fill" src="/images/lmw_contact_IMG_3791.jpeg" alt="lisa" />
+    <div className="h-screen  bg-lightGray pt-20 flex flex-col sm:flex-row items-center">
+      <div className="sm:w-5/12 w-full flex justify-center items-center ">
+      <Image  width={350} height={500} src="/images/lmw_contact_IMG_3791.jpeg" alt="lisa" />
       </div>
       <div className="w-full px-10 sm:w-7/12 flex flex-col sm:items-start sm:justify-evenly h-full">
         <div className="w-full">
@@ -25,14 +25,11 @@ export const Contact = () => {
             <div className={styles.firstRow}>
               <textarea className={styles.textArea} placeholder="message..." />
             </div>
-            <div className="w-full flex justify-between pt-6">
-              <p className="text-contact">
-                Email: <br />
-                <a href="mailto: email@here.com">lisamariewhitney@yahoo.com</a>
-              </p>
+            <div className="w-full flex justify-center pt-6">
+      
               <Button
                 text="Submit"
-                extraClasses="border-contact text-contact h-12"
+                extraClasses="border-contact text-contact h-12 w-72"
                 extraArrowClasses="border-contact  border-r border-t"
               />
             </div>

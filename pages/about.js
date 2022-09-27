@@ -6,6 +6,7 @@ import { Footer } from "../src/components/Shared";
 import Header from "../src/components/Shared/Header";
 import {SecondSectionAbout} from '../src/components/About'
 import Image from 'next/image'
+import { MainLayout } from "../src/layouts/MainLayout";
 
 export default function Home() {
   return (
@@ -13,7 +14,7 @@ export default function Home() {
       <Head>
         <title>Lisa Marie</title>
       </Head>
-      <Header />
+      <MainLayout>
       <div className="h-screen relative ">
         <Image width={40} height={40} src="/images/v-image.JPG" className="mx-auto h-full object-content" />
       </div>
@@ -27,7 +28,7 @@ export default function Home() {
         </div>
       </Banner>
       <SecondSectionAbout />
-      <Footer />
+      </MainLayout>
     </div>
   );
 }

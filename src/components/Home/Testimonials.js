@@ -132,7 +132,7 @@ function ButtonGroup({ next, previous }) {
 
 export function Testimonial() {
   return (
-    <div style={{ minHeight: "100vh" }}>
+    <div style={{ minHeight: "65vh" }}>
       <h2
         style={{
           fontSize: "2.2rem",

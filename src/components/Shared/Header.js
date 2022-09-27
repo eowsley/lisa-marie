@@ -3,7 +3,7 @@ import Link from "next/link";
 import clsx from "clsx";
 import { useRouter } from "next/router";
 
-function Header() {
+export function Header() {
   const router = useRouter();
   const { pathname } = router;
   const [isOpen, setIsOpen] = useState(false);
