@@ -9,7 +9,7 @@ export const Hero = () => {
       <div className="sm:w-5/12 w-full ">
         <Image  layout="responsive" width={100} height={150} src="/images/lmw_hero_IMG_3523.jpeg" alt="lisa" />
       </div>
-      <div className="w-full px-10 sm:w-7/12 h-96 flex flex-col justify-evenly items-center sm:items-start">
+      <div className="w-full px-10 sm:w-7/12 py-6 sm:py-0 sm:h-96 flex flex-col justify-evenly items-center sm:items-start">
         <h1 className="font-playfair text-blue-400 text-3xl">
           Is The Life You&apos;ve Worked So Hard to Create Secretly
           Crumbling? <br />{" "}
@@ -36,7 +36,7 @@ export const Hero = () => {
         </h1>
 
         </p>
-        <p className="self-start text-blue-400 mb-4 font-playfair w-10/12 text-center sm:text-left">
+        <p className="sm:self-start text-blue-400 mb-4 font-playfair w-10/12 text-center sm:text-left">
           When you feel like you&apos;re struggling to hold it all together, when
           there is complete chaos going on inside… I&apos;ll reconnect you to your
           true self.

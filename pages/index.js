@@ -12,8 +12,8 @@ export default function Home() {
       </Head>
       <MainLayout>
         <Hero />
-        <Banner extraClasses="flex items-center justify-center bg-red-400 h-72">
-          <div className="sm:w-4/12 w-8/12 h-full flex flex-col justify-evenly items-center">
+        <Banner extraClasses="flex items-center justify-center bg-red-400 sm:h-72 h-96" >
+          <div className="sm:w-4/12 w-10/12 h-full flex flex-col justify-evenly items-center">
             <strong className="text-center font-playfair">
               Believe that YOU will do the impossible in your life. -Lisa <br />{" "}
               <br /> In 2005, breast cancer, a double mastectomy, chemo, and
@@ -22,7 +22,7 @@ export default function Home() {
             </strong>
             <Button
               text="Let's Do The Impossible IN YOUR LIFE!"
-              extraClasses="h-10"
+              extraClasses="h-10 px-4"
               onClick={() => history.push("/work#regain")}
             />
           </div>

@@ -16,7 +16,7 @@ export default function Home() {
         <title>Lisa Marie</title>
       </Head>
       <MainLayout>
-        <div className="h-screen relative ">
+      <div className="sm:h-screen h-96 sm:mt-0 mt-20 relative ">
           <Image
             layout="fill"
             src="/images/v-image.JPG"

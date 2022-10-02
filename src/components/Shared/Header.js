@@ -16,7 +16,10 @@ export function Header() {
           <div className="flex items-center h-20 w-full">
             <div className="flex items-center  mx-20  justify-between w-full">
               <div className="flex justify-center items-center flex-shrink-0 ">
-                <h1 onClick={()=> router.push('/')} className="cursor-pointer font-playfair text-3xl text-opera-mauve playfair font-playfair text-contact ">
+                <h1
+                  onClick={() => router.push("/")}
+                  className="cursor-pointer font-playfair sm:text-3xl  text-opera-mauve playfair font-playfair text-contact "
+                >
                   <em> Lisa Marie Whitney</em>
                 </h1>
               </div>
@@ -31,7 +34,13 @@ export function Header() {
                     duration={500}
                     className="mr-5 "
                   >
-                    <a className={`${itemStyle} ${pathname === '/'?'text-contact':''}`}>Impact</a>
+                    <a
+                      className={`${itemStyle} ${
+                        pathname === "/" ? "text-contact" : ""
+                      }`}
+                    >
+                      Impact
+                    </a>
                   </Link>
                   <Link
                     activeClass="about"
@@ -42,7 +51,13 @@ export function Header() {
                     duration={500}
                     className="playfair font-playfair text-black-600 hover:text-gray-600 px-3 py-2 rounded-md text-sm font-medium m-0"
                   >
-                    <a className={`${itemStyle} ${pathname === '/about'?'text-contact':''}`}>About</a>
+                    <a
+                      className={`${itemStyle} ${
+                        pathname === "/about" ? "text-contact" : ""
+                      }`}
+                    >
+                      About
+                    </a>
                   </Link>
                   <Link
                     activeClass="work"
@@ -53,7 +68,13 @@ export function Header() {
                     duration={500}
                     className="playfair font-playfair text-black-600 hover:text-gray-600 px-3 py-2 rounded-md text-sm font-medium m-0"
                   >
-                    <a className={`${itemStyle} ${pathname === '/work'?'text-contact':''}`}>Regain Your Joy</a>
+                    <a
+                      className={`${itemStyle} ${
+                        pathname === "/work" ? "text-contact" : ""
+                      }`}
+                    >
+                      Regain Your Joy
+                    </a>
                   </Link>
 
                   <Link
@@ -65,7 +86,13 @@ export function Header() {
                     duration={500}
                     className="playfair font-playfair text-black-600 hover:text-gray-600 px-3 py-2 rounded-md text-sm font-medium m-0"
                   >
-                    <a className={`${itemStyle} ${pathname === '/services'?'text-contact':''}`}>What They&apos;re Saying</a>
+                    <a
+                      className={`${itemStyle} ${
+                        pathname === "/services" ? "text-contact" : ""
+                      }`}
+                    >
+                      What They&apos;re Saying
+                    </a>
                   </Link>
 
                   <Link
@@ -77,7 +104,13 @@ export function Header() {
                     duration={500}
                     className="playfair font-playfair text-black-600 hover:text-gray-600 px-3 py-2 rounded-md text-sm font-medium m-0"
                   >
-                    <a className={`${itemStyle} ${pathname === '/contact'?'text-contact':''}`}>Say Hello!</a>
+                    <a
+                      className={`${itemStyle} ${
+                        pathname === "/contact" ? "text-contact" : ""
+                      }`}
+                    >
+                      Say Hello!
+                    </a>
                   </Link>
                 </div>
               </div>
@@ -100,7 +133,7 @@ export function Header() {
             <div className="bg-white px-2 pt-2 pb-3 space-y-1 sm:px-3 text-right">
               <Link href="/">
                 <a className="playfair font-playfair hover:bg-medium-turquoise text-black hover:text-white block px-8 py-2 rounded-md text-base font-medium ">
-                  Home
+                  Impact
                 </a>
               </Link>
               <Link href="/about">
@@ -111,18 +144,18 @@ export function Header() {
 
               <Link href="/work">
                 <a className="playfair font-playfair hover:bg-medium-turquoise text-black hover:text-white block px-8 py-2 rounded-md text-base font-medium">
-                  Work
+                  Regain Your Joy
                 </a>
               </Link>
               <Link href="/services">
                 <a className="playfair font-playfair hover:bg-melon text-black hover:text-white block px-8 py-2 rounded-md text-base font-medium">
-                  Services
+                  What They&apos;re Saying
                 </a>
               </Link>
 
               <Link href="/contact">
                 <a className="playfair font-playfair hover:bg-opera-mauve text-black hover:text-white block px-8 py-2 rounded-md text-base font-medium">
-                  Contact
+                  Say Hello!
                 </a>
               </Link>
             </div>
