@@ -4,7 +4,7 @@ import Image from 'next/image'
 
 export const Contact = () => {
   return (
-    <div className="h-screen  bg-lightGray pt-20 flex flex-col sm:flex-row items-center">
+    <div className="sm:h-screen h-auto  bg-lightGray pt-20 flex flex-col sm:flex-row items-center">
       <div className="sm:w-5/12 w-full flex justify-center items-center ">
       <Image  width={350} height={500} src="/images/lmw_contact_IMG_3791.jpeg" alt="lisa" />
       </div>
