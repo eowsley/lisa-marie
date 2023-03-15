@@ -11,7 +11,7 @@ export const Footer = () => {
           openClosePopup(true);
         }}
       />
-      <span>© 2022 Lisa Marie Whitney | All rights reserved</span>
+      <span>© 2023 Lisa Marie Whitney | All rights reserved</span>
     </footer>
   );
 };

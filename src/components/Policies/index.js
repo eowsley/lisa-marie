@@ -27,7 +27,7 @@ export const PoliciesPopup = () => {
               concerns about any medical matter, you should consult your doctor
               or healthcare provider as soon as possible. If you think you may
               be suffering from any medical condition, you should seek
-              immediate`` medical attention from your healthcare provider. Do
+              immediate medical attention from your healthcare provider. Do
               not delay seeking medical advice, disregard medical advice or
               discontinue medical treatment because of information or guidance
               we provide you with. Nothing in this disclaimer will limit or
